@@ -1,0 +1,57 @@
+#container1 {
+    background: white;
+    padding: 10px;
+}
+#container2{
+    padding: 20px;
+}
+
+h1{
+    padding: 20px;
+    margin-bottom: 10px;
+    color: black;
+    background: lightblue;
+    float: left;
+}
+h2{
+    clear: both;
+    padding: 20px;
+    color: aqua;
+}
+
+
+
+#alternates{
+    float: right;
+}
+.top1{
+    float: left;
+    padding: 20px;
+}
+.top2{
+    float: left;
+    padding: 20px;
+}
+.top3{
+    float: left;
+    padding: 20px;
+}
+
+
+.bio {
+    margin: 20px 10px 50px 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    border: 20px solid grey;
+    background: grey;
+
+}
+
+img{
+    float: left;
+    padding: 5px;
+    border: 5px solid black;
+}
