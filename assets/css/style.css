@@ -1,57 +1,103 @@
-#container1 {
-    background: white;
-    padding: 10px;
-}
-#container2{
-    padding: 20px;
+*{
+    box-sizing: border-box;
 }
 
 h1{
-    padding: 20px;
-    margin-bottom: 10px;
-    color: black;
-    background: lightblue;
-    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    color: white;
+    width: 33.33%;
+    right: 20px;
 }
+
 h2{
-    clear: both;
-    padding: 20px;
-    color: aqua;
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container{
+    min-height: 100%;
+    position: relative;
+    background: #444;
 }
 
 
+header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    top: 0;    
+}
 
-#alternates{
+nav{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
     float: right;
-}
-.top1{
-    float: left;
-    padding: 20px;
-}
-.top2{
-    float: left;
-    padding: 20px;
-}
-.top3{
-    float: left;
-    padding: 20px;
+    margin: 0; 
+    right: 0;
 }
 
-
-.bio {
-    margin: 20px 10px 50px 20px;
+.About{
+    margin: 0;
+    left: 0;
 }
 
 footer{
-    text-align: center;
-    padding: 5px;
-    border: 20px solid grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: grey;
+    margin: 0px;
+    text-align: center;
+    bottom: 0px;
+}
 
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+section{
+    width: 960px;
+    margin: 0px;
+    padding: 20px;
+    color: white;
 }
 
 img{
+    float: left;    
+}
+
+.bio {
+    margin-left: 30px;
+}
+.one{
     float: left;
-    padding: 5px;
-    border: 5px solid black;
+    padding: 20px;
+    top: 20px;
+}
+.two{
+    float: left;
+    padding: 20px;
+    
+    top: 20px;
+}
+.three{
+    float: left;
+    padding: 20px;
+    
+}  
+
+body {
+    min-height: 100%;
+    position: relative;
+    background: #444;
+}
+
+ul{
+    width: 100%;
+}
+
+a:hover{
+    color: #4aaaa5;
 }
